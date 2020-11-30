@@ -1,0 +1,153 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	margin: 0px;
+	background-color: #222831
+}
+
+h1{
+	font-family: 'Avenir', sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2{
+	color : #eeeeee;
+	font-family: "Avenir", sans-serif;
+}
+
+h3{
+	color : #eeeeee;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.img-circle{
+	width: 300px;
+	border-radius: 50%;
+}
+
+.img-circle-small{
+	width: 50px;
+	border-radius: 50%;
+}
+
+.shadower{
+	box-shadow: 0px 5px 25px rgb(0,0,0,0.4);
+}
+
+.resizer{
+	width : 100px;
+}
+
+.banner{
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/gaming.jpeg);
+	color: white ;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+
+.btn-green{
+	background: #54e346;
+	box-shadow : 0px 5px 25px rgb(0,0,0,0.4);
+	border-radius: 6px;
+	padding: 20px;
+	transition: background 0.4s ease;
+	text-decoration: none;
+	color: #393e46;
+	transition: color 0.4s ease;
+	font-weight: bold;
+}
+
+.btn-green:hover{
+	background: #0779e4;
+	color: rgb(230,230,230);
+}
+
+.btn-menu{
+	transition: color 0.4s ease;
+	font-weight: bold
+}
+
+.btn-menu:hover{
+	color: #54e346;
+}
+
+.card-gray{
+	background: #393e46;
+	font-family: "Avenir", sans-serif;
+	color: #eeeeee;
+	padding: 20px;
+	width: 400px;
+	margin: 50px auto;
+	box-shadow : 0px 7px 30px rgb(0,0,0,0.4);
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	padding-left: 10px;
+	justify-content: space-between;
+}
+
+.card-inline{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	justify-content: space-between;
+}
+
+.card-menu{
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#card-footer{
+	background-color: black;
+	display : flex;
+	width: 400px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#footer-organizer{
+	background-color: black;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.container{
+	width: 900px;
+	margin: 50px auto ;
+}
+
+@media (max-width: 960px) {
+	.container{
+		width: 700px
+	}
+}
+
+@media (max-width: 720px) {
+	.container{
+		width: 500px
+	}
+
+@media (max-width: 540px) {
+	.container{
+		width: 450px
+	}
+}
+
